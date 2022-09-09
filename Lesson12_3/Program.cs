@@ -123,5 +123,11 @@ class Program
 
 
 
+        var s = new Student();
+        students.IndexOf(s);
+
+
+
+        students.FindIndex(1, s => s.Id == 2);
     }
 }
